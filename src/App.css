@@ -1,0 +1,39 @@
+.App {
+  border: 5px solid;
+  margin: 0 auto;
+  max-width: 1000px;
+  width:500px;
+  padding: 10px;
+
+}
+
+.custom-form {
+  display: flex;
+}
+
+.controls {
+  display: inline-flex;
+}
+
+.todo-box {
+  display: flexbox;
+  margin:1em;
+}
+
+.content {
+  border: 1px solid #cccccc;
+  padding: 5px;
+  line-height: 10px;
+}
+.content *{
+  display: inline-flex;
+  
+}
+
+.delete-all{
+  width: 400px;
+}
+.action-box{
+  display: inline-flex;
+  float: right;
+}
